@@ -29,9 +29,29 @@ console.log(typeof(numbers))
 const addition = [11,22,33,44,55,66,77,88,99,110,121,133]
 
 // const jod = numbers.concat(addition);
-// // console.log(jod);s
-// console.log(...numbers,...addition);
 
-console.log(numbers.join('*'));
+// console.log(...numbers,...addition);   if we need to concat more then one variable so it will easy through concat
 
-console.log(typeof(numbers))
+// console.log(numbers.join('*'));
+
+// console.log(typeof(numbers))
+// const name =["a",'b','c','d','e'];
+// const surname =['f','g','h','i','j'];
+
+// console.log(Array.isArray(name))
+// console.log(Array.from('asgrgr'))
+
+const surname =['f','g','q','x',['t',['y','h','i']],'j'];
+const first = 1;
+const second = 2;
+const third= 3;
+const fourth = 4;
+
+
+console.log(surname.flat(9))
+// console.log(Array.of(first,second,third,fourth)); it will convert all into string
+
+
+
+
+
