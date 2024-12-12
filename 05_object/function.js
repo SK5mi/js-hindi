@@ -49,11 +49,31 @@ Intro(student);   // this will return undefined in the place of world  bcz in st
 */ 
 
 
+/*
 
 const table =[12,24,36,48,60,72,84,96,108,120];
-
+console.log(LearnTable(table));
 function LearnTable(anything){
     const result = (`table of 12 * 5 = ${anything[[5]-1]}`)
     return result;
 }
-console.log(LearnTable(table));
+
+*/
+
+
+
+
+    //   *******************************************
+// we can acess these function form anywhere even before declaration(as we did in table function) but if we create a function by variable name so we can access that only 
+// after declaration of that 
+
+/*
+
+//   function with variable 
+
+const greet = function(){
+    console.log("namaste");
+}
+
+greet() ;
+*/
