@@ -77,3 +77,32 @@ const greet = function(){
 
 greet() ;
 */
+
+// const table =[12,24,36,48,60,72,84,96,108,120];
+// console.log(LearnTable(table));
+// function LearnTable(anything){
+//     // const result = (`table of 12 * 5 = ${anything[[5]-1]}`)
+
+//     console.log(this)
+//     // return result;
+// }
+// LearnTable(table);
+
+// arrow function
+
+// function subject (sub1,sub2){
+
+// }
+
+const table = [12, 24, 36, 48, 60, 72, 84, 96, 108, 120];
+
+function LearnTable() {
+    const result = `Table of 12 * 5 = ${this[5 - 1]}`;
+    return result;
+}
+const multiplication = LearnTable(table)
+
+// const boundLearnTable = LearnTable.bind(table);
+// console.log(boundLearnTable());
+
+console.log(multiplication());
